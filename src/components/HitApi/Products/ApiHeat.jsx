@@ -9,7 +9,7 @@ const ApiHeat = () => {
 
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("https://api.escuelajs.co/api/v1/products?limit=10&offset=15")
+    fetch("https://api.escuelajs.co/api/v1/products")
       .then((response) => {
         // console.log(response);
         return response.json();
@@ -27,7 +27,6 @@ const ApiHeat = () => {
 
   return (
     <div>
-      <h1>API Data:</h1>
       <div className="card-container">
         {data &&
           data.map((item) => {
