@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import ProductForm from "../AddData";
+import { useNavigate } from "react-router";
 
-// import "./Apihit.css";
-// import "../"
 const ApiHeat = () => {
   const navigate = useNavigate();
 

@@ -122,3 +122,12 @@
   color: #a89b8c; /* Warm muted placeholder */
   opacity: 1;
 }
+
+/* changes to the button */
+
+button {
+  padding: 10px;
+  border: 2px solid dodgerblue;
+  border-radius: 18px;
+  margin-top: 5px;
+}
